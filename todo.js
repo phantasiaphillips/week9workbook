@@ -1,6 +1,6 @@
 
 window.onload=function(){
-    let todoButton = document.getElementById("todoButton")
+    let todoButton = document.getElementById("new-todoButton")
     todoButton.onclick= onClickedTodoButton
 }
 
