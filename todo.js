@@ -1,8 +1,19 @@
 
 window.onload=function(){
+    let todoButton = document.getElementById("todoButton")
+    todoButton.onclick= onClickedTodoButton
+}
+
+window.onload=function(){
     let todoButton = document.getElementById("new-todoButton")
     todoButton.onclick= onClickedTodoButton
 }
+
+window.onload=function(){
+    let todoButton = document.getElementById("edit-todoButton")
+    todoButton.onclick= onClickedTodoButton
+}
+
 
 function onClickedTodoButton(){
     let todoInput = document.getElementById("todoInput").value
